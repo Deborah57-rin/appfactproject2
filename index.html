@@ -6,22 +6,53 @@
     <title>Debra cloud platform</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/utilities.css'>
     <script src='main.js'></script>
 </head>
 <body>
     <!--navbar-->
     <div class="navbar">
-        <div class="container">
+        <div class="container flex">
             <h1 class="logo">Debbycloud</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="features.html">features</a></li>
-                    <li><a href="docs.html"></a>Docs</li>
+                    <li><a href="docs.html">Docs</a></li>
                 </ul>
             </nav>
         </div>
     </div>
     <!--endnavbar-->
+
+    <!--Showcase-->
+    <div class="showcase">
+        <div class="container">
+            <div class="showcase-text">
+                <h1>Easier development</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit cupiditate, deleniti non nemo aut cumque maiores iste vel est dicta cum, quaerat saepe quis labore?
+                </p>
+                <a href="features.html">Read More</a>
+            </div>
+            <div class="showcase-form">
+                <h2>Request Demo</h2>
+                <form action="" method="post">
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Jane Odawa" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" placeholder="Debbycloud" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="jodawa@cloud.com" required>
+                    </div>
+                    <input type="submit" value="send" class="btn btn-primary">
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <!--End show case-->
+
 </body>
 </html>
